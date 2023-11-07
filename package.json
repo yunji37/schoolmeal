@@ -1,0 +1,27 @@
+{
+	"name": "projcet1",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@hono/node-server": "^1.2.0",
+		"firebase": "^10.5.2",
+		"hls.js": "^1.4.12",
+		"hono": "^3.9.1",
+		"sass": "^1.69.5",
+		"svelte-toasts": "^1.1.2",
+		"typescript": "^5.2.2"
+	}
+}

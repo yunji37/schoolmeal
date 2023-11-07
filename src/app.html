@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    %sveltekit.head%
+  </head>
+  <style>
+    :root {
+      --white: #ffffff;
+      --black: #000000;
+      --light-blue: #ddecff;
+      --dark-blue: #406a9f;
+      --text-blue: #154179;
+      --purple: #6e68a3;
+      --navy-blue: #082e5f;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+</html>
